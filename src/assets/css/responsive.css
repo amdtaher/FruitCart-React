@@ -1,0 +1,164 @@
+/* Extra Small screens (XS) */
+@media (max-width: 575.99px) {
+    /* Common Styles */
+    .pyb-10{ padding-block: 5rem; }
+    .aboutSubHeading, .discountSubHeading, .serviceSubHeading, .bestSellerSubHeading{ font-size: 20px; }
+    .aboutHeading, .discountHeading, .serviceHeading, .bestSellerHeading{ margin-block: .5rem; font-size: 44px; }
+    .aboutParagraph, .discountParagraph, .serviceParagraph, .bestSellerParagraph{ margin-block: .5rem; font-size: 16px; }
+    .bannerLink, .discountLink, .serviceLink, .bestSellerLink, .blogLink{ padding: 11px 25px; }
+
+    /* Hamburger */
+    .bm-burger-button{ width: 30px; height: 26px; }
+    .bm-menu{ font-size: 16px; }
+
+    /* Banner */
+    .bannerMain{ height: 70vh; }
+    .bannerContent{ top: 20%; }
+    .bannerParagraph{ margin-block: 1rem; }
+
+    /* About */
+    .aboutSingleMini span{ font-size: 18px; }
+
+    /* Discounts */
+    .discountMark{ top: 10px; right: 220px; left: auto; width: 100px; height: 100px; font-size: 20px; }
+    .discountMark::before, .discountMark::after{ content: none; }
+    .discountBanner{ align-items: flex-start !important; }
+    /* Services */
+    .serviceImages{ margin-top: 2rem; }
+
+    /* Catagories */
+    .singleTab a{ font-size: 20px; }
+    .activeTab::before{ top: 70px }
+    .singleCatagory{ bottom: -55px; gap: 10px; }
+    .singleProduct{ flex: 49%; margin-bottom: 20px; box-shadow: 0px 12px 10px var(--grey); }
+
+    /* Stocks And Shippings */
+    .stocks, .shipping{ gap: 15px; }
+    .singleStock, .singleShipping, .singleSellProduct{ justify-content: center; flex: 48%; }
+
+    /* BestSelling Products */
+    .singleSellProduct{ padding: 30px 0px; }
+    .bestSellerImages{ margin-top: 1.5rem; }
+    
+    /* Packages */
+    .packageHeading{ font-size: 33px; }
+    .packageHeading span{ font-size: 20px; }
+    .packagePrice{ font-size: 40px; }
+    .packageBenifitList li{ font-size: 18px; }
+    .singlePackage{ margin-top: 20px; }
+
+    /* Testimonials */
+    .reviewsContent{ margin-right: 0; margin-bottom: 60px; }
+    .testimonialContent{ gap: 10px; }
+    .testimonial{ padding: 60px 20px; flex-direction: column; align-items: center; gap: 20px;}
+    .testimonial::after{ right: -10px; }
+    .personName{ margin: auto; padding-left: 0; }
+    .personReview{ text-align: center; }
+}
+
+/* Small screens (SM) */
+@media (min-width: 576px) and (max-width: 767.99px) {
+    /* Common Styles */
+    .pyb-10{ padding-block: 5rem; }
+    .aboutSubHeading, .discountSubHeading, .serviceSubHeading, .bestSellerSubHeading{ font-size: 20px; }
+    .aboutHeading, .discountHeading, .serviceHeading, .bestSellerHeading{ margin-block: .5rem; font-size: 44px; }
+    .aboutParagraph, .discountParagraph, .serviceParagraph, .bestSellerParagraph{ margin-block: .5rem; font-size: 16px; }
+    .bannerLink, .discountLink, .serviceLink, .bestSellerLink, .blogLink{ padding: 11px 25px; }
+
+    /* Hamburger */
+    .bm-burger-button{ width: 30px; height: 26px; }
+    .bm-menu{ font-size: 18px; }
+
+    /* Banner */
+    .bannerMain{ height: 70vh; }
+    .bannerContent{ top: 15%; }
+    .bannerParagraph{ margin-block: 1rem; }
+
+    /* About */
+    .aboutSingleMini span{ font-size: 18px; }
+
+    /* Discounts */
+    .discountMark{ top: 20px; left: 170px; width: 100px; height: 100px; font-size: 20px; }
+    .discountMark::before, .discountMark::after{ content: none; }
+    /* Services */
+    .serviceImages{ margin-top: 2rem; }
+
+    /* Catagories */
+    .singleTab a{ font-size: 20px; }
+    .activeTab::before{ top: 70px }
+    .singleCatagory{ bottom: -55px; gap: 10px; }
+    .singleProduct{ flex: 49%; }
+
+    /* Stocks And Shippings */
+    .stocks, .shipping{ gap: 15px; }
+    .singleStock, .singleShipping, .singleSellProduct{ justify-content: center; flex: 48%; }
+
+    /* BestSelling Products */
+    .singleSellProduct{ padding: 30px 0px; }
+    .bestSellerImages{ margin-top: 1.5rem; }
+    
+    /* Packages */
+    .packageHeading{ font-size: 33px; }
+    .packageHeading span{ font-size: 20px; }
+    .packagePrice{ font-size: 40px; }
+    .packageBenifitList li{ font-size: 18px; }
+    .singlePackage{ margin-top: 20px; }
+
+    /* Testimonials */
+    .reviewsContent{ margin-right: 0; margin-bottom: 60px; }
+    .testimonialContent{ gap: 10px; }
+    .testimonial{ padding: 60px 20px; flex-direction: column; align-items: center; gap: 20px;}
+    .personName{ margin: auto; padding-left: 0; }
+}
+
+/* Medium screens (MD) */
+@media (min-width: 768px) and (max-width: 991.99px) {
+    /* Common Styles */
+    .aboutSubHeading, .discountSubHeading, .serviceSubHeading, .bestSellerSubHeading{ font-size: 22px; }
+    .aboutHeading, .discountHeading, .serviceHeading, .bestSellerHeading{ margin-block: .5rem; font-size: 55px; }
+    .aboutParagraph, .discountParagraph, .serviceParagraph, .bestSellerParagraph{ margin-block: 1rem; font-size: 16px; }
+    .serviceLink, .bestSellerLink, .packageLink, .blogLink{ padding: 15px 40px; }
+
+    /* Banner */
+    .bannerMain{ background-position: 0; }
+
+    /* About */
+    .aboutSingleMini span{ font-size: 18px; }
+
+    /* Discounts */
+    .discountMark{ left: 180px; }
+    .discountMark::before, .discountMark::after{ content: none; }
+
+    /* Catagories */
+    .singleTab a{ font-size: 20px; }
+    .activeTab::before{ top: 70px }
+    .singleCatagory{ gap: 9px; }
+
+    /* Stocks And Shippings */
+    .stocks{ gap: 12px; }
+    .singleStock, .singleShipping, .singleSellProduct{ justify-content: center; flex: 49%; }
+
+    /* BestSelling Products */
+    .singleSellProduct{ padding: 30px 0px; }
+
+    /* Testimonials */
+    .reviewsContent{ margin-right: 0; margin-bottom: 60px; }
+
+    /* Packages */
+    .packageHeading{ font-size: 25px; }
+    .packageHeading span{ font-size: 18px; }
+    .packagePrice{ font-size: 40px; }
+    .packageBenifitList li{ font-size: 16px; }
+}
+
+/* Large screens (LG) */
+@media (min-width: 992px) and (max-width: 1199.99px) {
+    /* Catagory */
+    .activeTab::before{ top: 83px; }
+    .singleCatagory{ gap: 12px; }
+    .singleProduct{ flex: 24%; }
+
+    /* Testimonial */
+    .testimonial{ align-items: center; }
+    .personReview{ font-size: 16px; }
+}
