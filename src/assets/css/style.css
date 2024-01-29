@@ -131,7 +131,6 @@ img{
 
 /* Hamburger */
 
-/* Position and sizing of burger button */
 .bm-burger-button {
     position: fixed;
     width: 36px;
@@ -139,50 +138,38 @@ img{
     left: 36px;
     top: 36px;
 }
-/* Color/shape of burger icon bars */
 .bm-burger-bars {
     background: #333;
 }
 .bm-burger-bars-scroll {
     background: orange;
 }
-/* Color/shape of burger icon bars on hover*/
 .bm-burger-bars-hover {
     background-color: rgb(255, 128, 0);
 }
-/* Position and sizing of clickable cross button */
 .bm-cross-button {
     width: 50px;
     height: 50px;
 }
-/* Color/shape of close button cross */
 .bm-cross {
     background: black;
 }
-/*
-Sidebar wrapper styles
-Note: Beware of modifying this element as it can break the animations - you should not need to touch it in most cases
-*/
 .bm-menu-wrap {
     position: fixed;
     height: 100%;
 }
-/* General sidebar styles */
 .bm-menu {
     background: #fff;
     padding-block: 2.5em;
     font-size: 1.15em;
 }
-/* Morph shape necessary with bubble or elastic */
 .bm-morph-shape {
     fill: blue;
 }
-/* Wrapper for item list */
 .bm-item-list {
     color: #b8b7ad;
     padding: 0.8em;
 }
-/* Individual item */
 .bm-item {
     margin-bottom: 20px;
     padding-block: 15px;
@@ -193,11 +180,9 @@ Note: Beware of modifying this element as it can break the animations - you shou
 .bm-item:hover{
     background-color: var(--primary-color);
 }
-/* Styling of overlay */
 .bm-overlay {
     background: rgba(0, 0, 0, 0.3);
 }
-/* Hambuger DropDown Content */
 .dropdown{
     position: relative;
 }
@@ -212,16 +197,16 @@ Note: Beware of modifying this element as it can break the animations - you shou
     min-width: 250px;
     box-shadow: 5px 10px 30px rgba(0, 0, 0, 0.21    );
     z-index: 1;
-  }
-  .dropdown-content .dropdownItem {
+}
+.dropdown-content .dropdownItem {
     color: black;
     padding: 12px 16px;
     text-decoration: none;
     display: block;
-  }
-  .dropdown-content .dropdownItem:hover {
+}
+.dropdown-content .dropdownItem:hover {
     background-color: var(--primary-color);
-  }
+}
 
 /* .01 Navigation Bar */
 .active{
@@ -601,7 +586,6 @@ Note: Beware of modifying this element as it can break the animations - you shou
     gap: 10px;
     font-size: 18px;
     font-weight: 600;
-    padding-left: 20px;
     text-transform: capitalize;
 }
 .personName span{

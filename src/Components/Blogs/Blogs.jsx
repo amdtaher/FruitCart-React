@@ -23,7 +23,7 @@ const blogs = () => {
         opacity: 1,
         transition: {
             duration: 1.5,
-            delay: 1,
+            delay: .8,
             ease: 'easeInOut', 
             }
     },
@@ -31,7 +31,7 @@ const blogs = () => {
         opacity: 1,
         transition: {
             duration: 2,
-            delay: 1.5,
+            delay: 1.1,
             ease: 'easeInOut', 
             }
     },
@@ -39,7 +39,7 @@ const blogs = () => {
         opacity: 1,
         transition: {
             duration: 2.5,
-            delay: 2,
+            delay: 1.4,
             ease: 'easeInOut', 
             }
     }

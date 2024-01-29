@@ -9,7 +9,7 @@ import product4 from '../../assets/img/best-seller/best-product-img4.jpeg'
 const BestSeller = () => {
   const variant = {
     moveHidden: {
-        x: -100,
+        x: -50,
         opacity: 0
     },
     moveVisible: {
@@ -17,7 +17,7 @@ const BestSeller = () => {
         opacity: 1,
         transition: {
             duration: 1,
-            delay: .5
+            delay: .8
         }
     },
     fadeHidden: {
@@ -27,7 +27,7 @@ const BestSeller = () => {
         opacity: 1,
         transition: {
             duration: 1,
-            delay: .3,
+            delay: .5,
             ease: 'easeInOut', 
             }
     }

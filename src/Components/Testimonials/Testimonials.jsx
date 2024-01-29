@@ -5,18 +5,6 @@ import person from '../../assets/img/Speakers/speakers1.jpg'
 
 const Testimonials = () => {
   const variant = {
-    moveHidden: {
-        x: 200,
-        opacity: 0
-    },
-    moveVisible: {
-        x: 0,
-        opacity: 1,
-        transition: {
-            duration: 1.3,
-            delay: 1
-        }
-    },
     fadeHidden: {
       opacity: 0,
     },
@@ -24,7 +12,7 @@ const Testimonials = () => {
         opacity: 1,
         transition: {
             duration: 1,
-            delay: .3,
+            delay: .5,
             ease: 'easeInOut', 
             }
     }
@@ -36,8 +24,8 @@ const Testimonials = () => {
           <Col xs={12} sm={12} md={12} lg={5}>
             <motion.div
             variants={variant}
-            initial='moveHidden'
-            whileInView='moveVisible'
+            initial='fadeHidden'
+            whileInView='fadeVisible'
             viewport={{ once: true }}
             >
               <div className="reviewsContent">

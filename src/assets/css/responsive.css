@@ -12,7 +12,6 @@
     .bm-menu{ font-size: 16px; }
 
     /* Banner */
-    .bannerMain{ height: 70vh; }
     .bannerContent{ top: 20%; }
     .bannerParagraph{ margin-block: 1rem; }
 
@@ -20,25 +19,32 @@
     .aboutSingleMini span{ font-size: 18px; }
 
     /* Discounts */
-    .discountMark{ top: 10px; right: 220px; left: auto; width: 100px; height: 100px; font-size: 20px; }
+    .discountMark{ top: 160px; right: 200px; left: auto; width: 100px; height: 100px; font-size: 20px; }
     .discountMark::before, .discountMark::after{ content: none; }
     .discountBanner{ align-items: flex-start !important; }
+    .discountContent{ padding-block: 20px; }
+
     /* Services */
     .serviceImages{ margin-top: 2rem; }
 
     /* Catagories */
+    .catagoryTab{ padding: 0 10px !important; } 
     .singleTab a{ font-size: 20px; }
     .activeTab::before{ top: 70px }
-    .singleCatagory{ bottom: -55px; gap: 10px; }
-    .singleProduct{ flex: 49%; margin-bottom: 20px; box-shadow: 0px 12px 10px var(--grey); }
+    .singleCatagory{ bottom: -55px; gap: 10px; padding: 0 10px !important; }
+    .singleProduct{ flex: 48%; margin-bottom: 20px; box-shadow: 0px 12px 10px var(--grey); }
 
     /* Stocks And Shippings */
-    .stocks, .shipping{ gap: 15px; }
-    .singleStock, .singleShipping, .singleSellProduct{ justify-content: center; flex: 48%; }
+    .stocks, .shipping{ gap: 15px; padding: 40px 20px !important }
+    .singleStock, .singleShipping, .singleSellProduct{ justify-content: center; flex: 47%; gap: 10px; }
+    .singleStock h4{ font-size: 22px; }
+    .singleStock span{ font-size: 16px; }
+    .singleShipping h4{ font-size: 20px; }
 
     /* BestSelling Products */
     .singleSellProduct{ padding: 30px 0px; }
     .bestSellerImages{ margin-top: 1.5rem; }
+    .bestSellerContent::before{ content: none; }
     
     /* Packages */
     .packageHeading{ font-size: 33px; }
@@ -50,7 +56,7 @@
     /* Testimonials */
     .reviewsContent{ margin-right: 0; margin-bottom: 60px; }
     .testimonialContent{ gap: 10px; }
-    .testimonial{ padding: 60px 20px; flex-direction: column; align-items: center; gap: 20px;}
+    .testimonial{ padding: 60px 20px; flex-direction: column; align-items: center; gap: 20px; margin-left: 0;}
     .testimonial::after{ right: -10px; }
     .personName{ margin: auto; padding-left: 0; }
     .personReview{ text-align: center; }
@@ -70,7 +76,7 @@
     .bm-menu{ font-size: 18px; }
 
     /* Banner */
-    .bannerMain{ height: 70vh; }
+    .bannerMain{ height: 60vh; }
     .bannerContent{ top: 15%; }
     .bannerParagraph{ margin-block: 1rem; }
 
@@ -96,6 +102,7 @@
     /* BestSelling Products */
     .singleSellProduct{ padding: 30px 0px; }
     .bestSellerImages{ margin-top: 1.5rem; }
+    .bestSellerContent::before{ content: none; }
     
     /* Packages */
     .packageHeading{ font-size: 33px; }
@@ -107,7 +114,7 @@
     /* Testimonials */
     .reviewsContent{ margin-right: 0; margin-bottom: 60px; }
     .testimonialContent{ gap: 10px; }
-    .testimonial{ padding: 60px 20px; flex-direction: column; align-items: center; gap: 20px;}
+    .testimonial{ padding: 60px 20px; flex-direction: column; align-items: center; gap: 20px; margin-left: 0;}
     .personName{ margin: auto; padding-left: 0; }
 }
 
@@ -120,7 +127,7 @@
     .serviceLink, .bestSellerLink, .packageLink, .blogLink{ padding: 15px 40px; }
 
     /* Banner */
-    .bannerMain{ background-position: 0; }
+    .bannerMain{ background-position: 0; height: 70vh; }
 
     /* About */
     .aboutSingleMini span{ font-size: 18px; }

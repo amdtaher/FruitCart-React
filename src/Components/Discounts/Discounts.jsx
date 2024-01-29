@@ -12,7 +12,7 @@ const Discounts = () => {
         opacity: 1,
         transition: {
             duration: 1,
-            delay: .3,
+            delay: .6,
             ease: 'easeInOut', 
             }
     }
@@ -42,7 +42,7 @@ const Discounts = () => {
                   <div className="discountContent">
                     <span className= 'discountMark'>50%<br/>discount</span>
                     <span className="discountSubHeading">Fresh Exotic Fruits</span>
-                    <h4 className="discountHeading">on 10% discount</h4>
+                    <h4 className="discountHeading">on Exciting discounts</h4>
                     <p className="discountParagraph">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Aspernatur cupiditate magnam dolor, nisi eos quos.</p>
                     <a href="" className="discountLink">shop now</a>
                   </div>

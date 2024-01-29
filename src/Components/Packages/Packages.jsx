@@ -25,7 +25,7 @@ const packages = () => {
         y: 0,
         transition: {
             duration: 1,
-            delay: .8,
+            delay: .5,
             ease: 'easeInOut', 
             }
     }

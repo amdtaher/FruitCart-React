@@ -17,7 +17,7 @@ const Services = () => {
         opacity: 1,
         transition: {
             duration: 1,
-            delay: .3,
+            delay: .6,
             ease: 'easeInOut', 
             }
     }

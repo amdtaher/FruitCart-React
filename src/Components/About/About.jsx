@@ -30,7 +30,7 @@ const fadeVariant = {
         opacity: 1,
         transition: {
             duration: 1,
-            delay: .3,
+            delay: .5,
             ease: 'easeInOut', 
             }
     }

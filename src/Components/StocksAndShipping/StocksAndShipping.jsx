@@ -13,7 +13,7 @@ import shipping4 from '../../assets/img/icons/shipping4.png';
 const StocksAndShipping = () => {
   const variant={
   moveHidden: {
-    x: -300,
+    x: -30,
     opacity: 0
   },
   moveVisible: {
@@ -21,11 +21,11 @@ const StocksAndShipping = () => {
       opacity: 1,
       transition: {
           duration: 1.2,
-          delay: .5
+          delay: .6
       }
   },
   moveReverseHidden: {
-    x: 300,
+    x: 30,
     opacity: 0
   },
   moveReverseVisible: {

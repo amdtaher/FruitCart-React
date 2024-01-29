@@ -20,7 +20,7 @@ const Banner = () => {
         opacity: 1,
         transition: {
             duration: 1.5,
-            delay: 1,
+            delay: .5,
             ease: 'easeInOut', 
             }
     }

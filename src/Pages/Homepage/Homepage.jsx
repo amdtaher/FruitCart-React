@@ -20,7 +20,7 @@ const Homepage = () => {
   useEffect(() => {
     const delay = setTimeout(() => {
       setLoading(false);
-    }, 1000);
+    }, 600);
 
     return () => clearTimeout(delay);
   }, []);
